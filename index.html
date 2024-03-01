@@ -6,11 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/">
-        <input type="text" >
-        <button>click</button>
+    <div>
+        <h1>Url Shortner</h1>
+      <form action="/url-shortner" method="post">
+        <label for="url">Enter a long URL:</label>
+        <input type="url" id="url" name="url" required />
+        <button type="submit">Shorten URL</button>
+    </form>  
+    </div>
     
-    </form>
     
 </body>
 </html>
